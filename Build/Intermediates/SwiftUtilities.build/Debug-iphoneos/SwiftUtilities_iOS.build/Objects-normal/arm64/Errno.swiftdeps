@@ -1,0 +1,300 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Errno"
+provides-nominal:
+- "O14SwiftUtilities5Errno"
+provides-member:
+- ["O14SwiftUtilities5Errno", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Errno"
+- !private "~="
+- "=="
+- "Swift"
+- "Int32"
+depends-member:
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["P14SwiftUtilities17EndianConvertable", "Stride"]
+- !private ["P14SwiftUtilities17EndianConvertable", "hashValue"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Stride"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- ["O14SwiftUtilities5Errno", "RawValue"]
+- ["O14SwiftUtilities5Errno", "_code"]
+- ["O14SwiftUtilities5Errno", "_domain"]
+- ["O14SwiftUtilities5Errno", "_getEmbeddedNSError"]
+- ["O14SwiftUtilities5Errno", "_toAnyHashable"]
+- ["O14SwiftUtilities5Errno", "_userInfo"]
+- ["O14SwiftUtilities5Errno", "deinit"]
+- ["O14SwiftUtilities5Errno", "e2BIG"]
+- ["O14SwiftUtilities5Errno", "eacces"]
+- ["O14SwiftUtilities5Errno", "eaddrinuse"]
+- ["O14SwiftUtilities5Errno", "eaddrnotavail"]
+- ["O14SwiftUtilities5Errno", "eafnosupport"]
+- ["O14SwiftUtilities5Errno", "eagain"]
+- ["O14SwiftUtilities5Errno", "ealready"]
+- ["O14SwiftUtilities5Errno", "eauth"]
+- ["O14SwiftUtilities5Errno", "ebadarch"]
+- ["O14SwiftUtilities5Errno", "ebadexec"]
+- ["O14SwiftUtilities5Errno", "ebadf"]
+- ["O14SwiftUtilities5Errno", "ebadmacho"]
+- ["O14SwiftUtilities5Errno", "ebadmsg"]
+- ["O14SwiftUtilities5Errno", "ebadrpc"]
+- ["O14SwiftUtilities5Errno", "ebusy"]
+- ["O14SwiftUtilities5Errno", "ecanceled"]
+- ["O14SwiftUtilities5Errno", "echild"]
+- ["O14SwiftUtilities5Errno", "econnaborted"]
+- ["O14SwiftUtilities5Errno", "econnrefused"]
+- ["O14SwiftUtilities5Errno", "econnreset"]
+- ["O14SwiftUtilities5Errno", "edeadlk"]
+- ["O14SwiftUtilities5Errno", "edestaddrreq"]
+- ["O14SwiftUtilities5Errno", "edeverr"]
+- ["O14SwiftUtilities5Errno", "edom"]
+- ["O14SwiftUtilities5Errno", "edquot"]
+- ["O14SwiftUtilities5Errno", "eexist"]
+- ["O14SwiftUtilities5Errno", "efault"]
+- ["O14SwiftUtilities5Errno", "efbig"]
+- ["O14SwiftUtilities5Errno", "eftype"]
+- ["O14SwiftUtilities5Errno", "ehostdown"]
+- ["O14SwiftUtilities5Errno", "ehostunreach"]
+- ["O14SwiftUtilities5Errno", "eidrm"]
+- ["O14SwiftUtilities5Errno", "eilseq"]
+- ["O14SwiftUtilities5Errno", "einprogress"]
+- ["O14SwiftUtilities5Errno", "eintr"]
+- ["O14SwiftUtilities5Errno", "einval"]
+- ["O14SwiftUtilities5Errno", "eio"]
+- ["O14SwiftUtilities5Errno", "eisconn"]
+- ["O14SwiftUtilities5Errno", "eisdir"]
+- ["O14SwiftUtilities5Errno", "eloop"]
+- ["O14SwiftUtilities5Errno", "emfile"]
+- ["O14SwiftUtilities5Errno", "emlink"]
+- ["O14SwiftUtilities5Errno", "emsgsize"]
+- ["O14SwiftUtilities5Errno", "emultihop"]
+- ["O14SwiftUtilities5Errno", "enametoolong"]
+- ["O14SwiftUtilities5Errno", "eneedauth"]
+- ["O14SwiftUtilities5Errno", "enetdown"]
+- ["O14SwiftUtilities5Errno", "enetreset"]
+- ["O14SwiftUtilities5Errno", "enetunreach"]
+- ["O14SwiftUtilities5Errno", "enfile"]
+- ["O14SwiftUtilities5Errno", "enoattr"]
+- ["O14SwiftUtilities5Errno", "enobufs"]
+- ["O14SwiftUtilities5Errno", "enodata"]
+- ["O14SwiftUtilities5Errno", "enodev"]
+- ["O14SwiftUtilities5Errno", "enoent"]
+- ["O14SwiftUtilities5Errno", "enoexec"]
+- ["O14SwiftUtilities5Errno", "enolck"]
+- ["O14SwiftUtilities5Errno", "enolink"]
+- ["O14SwiftUtilities5Errno", "enomem"]
+- ["O14SwiftUtilities5Errno", "enomsg"]
+- ["O14SwiftUtilities5Errno", "enopolicy"]
+- ["O14SwiftUtilities5Errno", "enoprotoopt"]
+- ["O14SwiftUtilities5Errno", "enospc"]
+- ["O14SwiftUtilities5Errno", "enosr"]
+- ["O14SwiftUtilities5Errno", "enostr"]
+- ["O14SwiftUtilities5Errno", "enosys"]
+- ["O14SwiftUtilities5Errno", "enotblk"]
+- ["O14SwiftUtilities5Errno", "enotconn"]
+- ["O14SwiftUtilities5Errno", "enotdir"]
+- ["O14SwiftUtilities5Errno", "enotempty"]
+- ["O14SwiftUtilities5Errno", "enotrecoverable"]
+- ["O14SwiftUtilities5Errno", "enotsock"]
+- ["O14SwiftUtilities5Errno", "enotsup"]
+- ["O14SwiftUtilities5Errno", "enotty"]
+- ["O14SwiftUtilities5Errno", "enxio"]
+- ["O14SwiftUtilities5Errno", "eopnotsupp"]
+- ["O14SwiftUtilities5Errno", "eoverflow"]
+- ["O14SwiftUtilities5Errno", "eownerdead"]
+- ["O14SwiftUtilities5Errno", "eperm"]
+- ["O14SwiftUtilities5Errno", "epfnosupport"]
+- ["O14SwiftUtilities5Errno", "epipe"]
+- ["O14SwiftUtilities5Errno", "eproclim"]
+- ["O14SwiftUtilities5Errno", "eprocunavail"]
+- ["O14SwiftUtilities5Errno", "eprogmismatch"]
+- ["O14SwiftUtilities5Errno", "eprogunavail"]
+- ["O14SwiftUtilities5Errno", "eproto"]
+- ["O14SwiftUtilities5Errno", "eprotonosupport"]
+- ["O14SwiftUtilities5Errno", "eprototype"]
+- ["O14SwiftUtilities5Errno", "epwroff"]
+- ["O14SwiftUtilities5Errno", "eqfull"]
+- ["O14SwiftUtilities5Errno", "erange"]
+- ["O14SwiftUtilities5Errno", "eremote"]
+- ["O14SwiftUtilities5Errno", "erofs"]
+- ["O14SwiftUtilities5Errno", "erpcmismatch"]
+- ["O14SwiftUtilities5Errno", "eshlibvers"]
+- ["O14SwiftUtilities5Errno", "eshutdown"]
+- ["O14SwiftUtilities5Errno", "esocktnosupport"]
+- ["O14SwiftUtilities5Errno", "espipe"]
+- ["O14SwiftUtilities5Errno", "esrch"]
+- ["O14SwiftUtilities5Errno", "estale"]
+- ["O14SwiftUtilities5Errno", "etime"]
+- ["O14SwiftUtilities5Errno", "etimedout"]
+- ["O14SwiftUtilities5Errno", "etoomanyrefs"]
+- ["O14SwiftUtilities5Errno", "etxtbsy"]
+- ["O14SwiftUtilities5Errno", "eusers"]
+- ["O14SwiftUtilities5Errno", "exdev"]
+- ["O14SwiftUtilities5Errno", "hashValue"]
+- ["O14SwiftUtilities5Errno", "init"]
+- ["O14SwiftUtilities5Errno", "rawValue"]
+- ["Ps5Error", "RawValue"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "hashValue"]
+- ["Ps5Error", "init"]
+- ["Ps5Error", "rawValue"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Stride"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int32", "Stride"]
+- ["Vs5Int32", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "_code"]
+- ["Ps16RawRepresentable", "_domain"]
+- ["Ps16RawRepresentable", "_getEmbeddedNSError"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "_userInfo"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "Stride"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P14SwiftUtilities17EndianConvertable"
+- "Ps9Equatable"
+- "O14SwiftUtilities5Errno"
+- "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Source/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Build/Intermediates/SwiftUtilities.build/Debug-iphoneos/SwiftUtilities_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "972e1e4ac29de064a6d6b3080e90cddd"

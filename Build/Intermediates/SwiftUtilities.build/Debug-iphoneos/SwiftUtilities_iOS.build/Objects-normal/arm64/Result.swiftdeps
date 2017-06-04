@@ -1,0 +1,43 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Result"
+- "??"
+provides-nominal:
+- "O14SwiftUtilities6Result"
+provides-member:
+- ["O14SwiftUtilities6Result", ""]
+- ["O14SwiftUtilities6Result", "map"]
+- ["O14SwiftUtilities6Result", "flatMap"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Result"
+- "Swift"
+- "??"
+depends-member:
+- ["Ps5Error", "deinit"]
+- ["Sq", "deinit"]
+- ["O14SwiftUtilities6Result", "Result"]
+- ["O14SwiftUtilities6Result", "Swift"]
+- ["O14SwiftUtilities6Result", "T"]
+- ["O14SwiftUtilities6Result", "deinit"]
+- ["O14SwiftUtilities6Result", "failure"]
+- ["O14SwiftUtilities6Result", "flatMap"]
+- ["O14SwiftUtilities6Result", "map"]
+- ["O14SwiftUtilities6Result", "success"]
+depends-nominal:
+- "Ps5Error"
+- "Sq"
+- "O14SwiftUtilities6Result"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Source/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Build/Intermediates/SwiftUtilities.build/Debug-iphoneos/SwiftUtilities_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "0bd3ec594d208a0868035fa84fd46579"

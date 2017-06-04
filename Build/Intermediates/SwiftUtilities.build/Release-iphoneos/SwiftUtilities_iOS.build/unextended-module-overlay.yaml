@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Build/Products/Release-iphoneos/SwiftUtilities.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Build/Intermediates/SwiftUtilities.build/Release-iphoneos/SwiftUtilities_iOS.build/unextended-module.modulemap',
+    }]
+  }]
+}

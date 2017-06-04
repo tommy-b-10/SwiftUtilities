@@ -1,0 +1,397 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObservableType"
+- "ObservableProperty"
+- "ObservableOptionalProperty"
+provides-nominal:
+- "P14SwiftUtilities14ObservableType"
+- "C14SwiftUtilities18ObservableProperty"
+- "C14SwiftUtilities26ObservableOptionalProperty"
+provides-member:
+- ["P14SwiftUtilities14ObservableType", ""]
+- ["C14SwiftUtilities18ObservableProperty", ""]
+- ["C14SwiftUtilities26ObservableOptionalProperty", ""]
+- ["P14SwiftUtilities14ObservableType", "addObserver"]
+- ["P14SwiftUtilities14ObservableType", "addObserver"]
+- ["P14SwiftUtilities14ObservableType", "addObserver"]
+provides-dynamic-lookup:
+depends-top-level:
+- "DispatchQueue"
+- "ObservableOptionalProperty"
+- "ObservableType"
+- "ObservableProperty"
+- "NSRecursiveLock"
+- !private "!="
+- !private "ValueChangeCallback"
+- "NSMapTable"
+- "ExpressibleByNilLiteral"
+- "Void"
+- "AnyObject"
+- "Box"
+- "Equatable"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+depends-member:
+- !private ["Ps9AnyObject", "Box"]
+- !private ["Ps9AnyObject", "Callback"]
+- ["Ps9AnyObject", "ElementType"]
+- ["Ps9AnyObject", "NSMapTable"]
+- ["Ps9AnyObject", "NSRecursiveLock"]
+- ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "allObjects"]
+- !private ["Ps9AnyObject", "async"]
+- ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "internalValue"]
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "notifyObservers"]
+- !private ["Ps9AnyObject", "objectEnumerator"]
+- !private ["Ps9AnyObject", "observers"]
+- !private ["Ps9AnyObject", "removeObject"]
+- ["Ps9AnyObject", "removeObserver"]
+- !private ["Ps9AnyObject", "setObject"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "with"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "forEach"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "forEach"]
+- !private ["Ps22BidirectionalIndexable", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["C14SwiftUtilities3Box", "deinit"]
+- !private ["C14SwiftUtilities3Box", "init"]
+- !private ["C14SwiftUtilities3Box", "value"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "allObjects"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "forEach"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "objectEnumerator"]
+- !private ["Ps7CVarArg", "removeObject"]
+- !private ["Ps7CVarArg", "setObject"]
+- !private ["Ps7CVarArg", "with"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "allObjects"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "objectEnumerator"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObject"]
+- !private ["Ps28CustomDebugStringConvertible", "setObject"]
+- !private ["Ps28CustomDebugStringConvertible", "with"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "allObjects"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "objectEnumerator"]
+- !private ["Ps23CustomStringConvertible", "removeObject"]
+- !private ["Ps23CustomStringConvertible", "setObject"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "with"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allObjects"]
+- !private ["Ps9Equatable", "async"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "objectEnumerator"]
+- !private ["Ps9Equatable", "removeObject"]
+- !private ["Ps9Equatable", "setObject"]
+- ["Ps9Equatable", "strongMemory"]
+- ["Ps9Equatable", "weakMemory"]
+- !private ["Ps9Equatable", "with"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "forEach"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- ["Ps25ExpressibleByArrayLiteral", "strongMemory"]
+- ["Ps25ExpressibleByArrayLiteral", "weakMemory"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "Box"]
+- !private ["Ps23ExpressibleByNilLiteral", "Callback"]
+- ["Ps23ExpressibleByNilLiteral", "ElementType"]
+- ["Ps23ExpressibleByNilLiteral", "NSMapTable"]
+- ["Ps23ExpressibleByNilLiteral", "NSRecursiveLock"]
+- ["Ps23ExpressibleByNilLiteral", "addObserver"]
+- ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "internalValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "lock"]
+- !private ["Ps23ExpressibleByNilLiteral", "notifyObservers"]
+- !private ["Ps23ExpressibleByNilLiteral", "observers"]
+- ["Ps23ExpressibleByNilLiteral", "removeObserver"]
+- !private ["Ps23ExpressibleByNilLiteral", "value"]
+- ["Ps23ExpressibleByNilLiteral", ""]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allObjects"]
+- !private ["Ps8Hashable", "async"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "objectEnumerator"]
+- !private ["Ps8Hashable", "removeObject"]
+- !private ["Ps8Hashable", "setObject"]
+- !private ["Ps8Hashable", "with"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "forEach"]
+- !private ["Ps9Indexable", "map"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "forEach"]
+- !private ["Ps13IndexableBase", "map"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["P14SwiftUtilities7Locking", "init"]
+- !private ["P14SwiftUtilities7Locking", "with"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "forEach"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "forEach"]
+- !private ["Ps16MutableIndexable", "map"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "objectEnumerator"]
+- !private ["PSo8NSCoding", "removeObject"]
+- !private ["PSo8NSCoding", "setObject"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "objectEnumerator"]
+- !private ["PSo9NSCopying", "removeObject"]
+- !private ["PSo9NSCopying", "setObject"]
+- !private ["CSo12NSEnumerator", "allObjects"]
+- !private ["CSo12NSEnumerator", "deinit"]
+- !private ["PSo17NSFastEnumeration", "allObjects"]
+- ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "objectEnumerator"]
+- !private ["PSo17NSFastEnumeration", "removeObject"]
+- !private ["PSo17NSFastEnumeration", "setObject"]
+- ["PSo9NSLocking", "init"]
+- !private ["PSo9NSLocking", "with"]
+- ["CSo10NSMapTable", "deinit"]
+- ["CSo10NSMapTable", "init"]
+- !private ["CSo10NSMapTable", "objectEnumerator"]
+- !private ["CSo10NSMapTable", "removeObject"]
+- !private ["CSo10NSMapTable", "setObject"]
+- !private ["CSo8NSObject", "allObjects"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objectEnumerator"]
+- !private ["CSo8NSObject", "removeObject"]
+- !private ["CSo8NSObject", "setObject"]
+- !private ["CSo8NSObject", "with"]
+- !private ["PSo16NSObjectProtocol", "allObjects"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objectEnumerator"]
+- !private ["PSo16NSObjectProtocol", "removeObject"]
+- !private ["PSo16NSObjectProtocol", "setObject"]
+- !private ["PSo16NSObjectProtocol", "with"]
+- ["CSo15NSRecursiveLock", "deinit"]
+- ["CSo15NSRecursiveLock", "init"]
+- !private ["CSo15NSRecursiveLock", "with"]
+- !private ["CSo9OS_object", "async"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "AnyObject"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "Box"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "Callback"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "Element"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "ElementType"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "NSMapTable"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "NSRecursiveLock"]
+- !private ["C14SwiftUtilities26ObservableOptionalProperty", "ValueChangeCallback"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "Void"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "addObserver"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "deinit"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "init"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "internalValue"]
+- !private ["C14SwiftUtilities26ObservableOptionalProperty", "lock"]
+- !private ["C14SwiftUtilities26ObservableOptionalProperty", "notifyObservers"]
+- !private ["C14SwiftUtilities26ObservableOptionalProperty", "observers"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "removeObserver"]
+- ["C14SwiftUtilities26ObservableOptionalProperty", "value"]
+- ["C14SwiftUtilities18ObservableProperty", "AnyObject"]
+- ["C14SwiftUtilities18ObservableProperty", "Box"]
+- ["C14SwiftUtilities18ObservableProperty", "Callback"]
+- ["C14SwiftUtilities18ObservableProperty", "Element"]
+- ["C14SwiftUtilities18ObservableProperty", "ElementType"]
+- ["C14SwiftUtilities18ObservableProperty", "NSMapTable"]
+- ["C14SwiftUtilities18ObservableProperty", "NSRecursiveLock"]
+- !private ["C14SwiftUtilities18ObservableProperty", "ValueChangeCallback"]
+- ["C14SwiftUtilities18ObservableProperty", "Void"]
+- ["C14SwiftUtilities18ObservableProperty", "addObserver"]
+- ["C14SwiftUtilities18ObservableProperty", "deinit"]
+- ["C14SwiftUtilities18ObservableProperty", "init"]
+- ["C14SwiftUtilities18ObservableProperty", "internalValue"]
+- !private ["C14SwiftUtilities18ObservableProperty", "lock"]
+- !private ["C14SwiftUtilities18ObservableProperty", "notifyObservers"]
+- !private ["C14SwiftUtilities18ObservableProperty", "observers"]
+- ["C14SwiftUtilities18ObservableProperty", "removeObserver"]
+- ["C14SwiftUtilities18ObservableProperty", "value"]
+- ["P14SwiftUtilities14ObservableType", "AnyObject"]
+- !private ["P14SwiftUtilities14ObservableType", "Box"]
+- !private ["P14SwiftUtilities14ObservableType", "Callback"]
+- ["P14SwiftUtilities14ObservableType", "DispatchQueue"]
+- ["P14SwiftUtilities14ObservableType", "ElementType"]
+- ["P14SwiftUtilities14ObservableType", "NSMapTable"]
+- ["P14SwiftUtilities14ObservableType", "NSRecursiveLock"]
+- ["P14SwiftUtilities14ObservableType", "Void"]
+- ["P14SwiftUtilities14ObservableType", "addObserver"]
+- ["P14SwiftUtilities14ObservableType", "init"]
+- !private ["P14SwiftUtilities14ObservableType", "internalValue"]
+- !private ["P14SwiftUtilities14ObservableType", "lock"]
+- !private ["P14SwiftUtilities14ObservableType", "notifyObservers"]
+- !private ["P14SwiftUtilities14ObservableType", "observers"]
+- ["P14SwiftUtilities14ObservableType", "removeObserver"]
+- !private ["P14SwiftUtilities14ObservableType", "value"]
+- ["P14SwiftUtilities14ObservableType", ""]
+- ["Ps9OptionSet", "strongMemory"]
+- ["Ps9OptionSet", "weakMemory"]
+- ["Sq", "deinit"]
+- ["VCSo18NSPointerFunctions7Options", "deinit"]
+- ["VCSo18NSPointerFunctions7Options", "strongMemory"]
+- ["VCSo18NSPointerFunctions7Options", "weakMemory"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "forEach"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "forEach"]
+- !private ["Ps21RandomAccessIndexable", "map"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "forEach"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "forEach"]
+- !private ["Ps25RangeReplaceableIndexable", "map"]
+- ["Ps16RawRepresentable", "strongMemory"]
+- ["Ps16RawRepresentable", "weakMemory"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "allObjects"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "map"]
+- ["Ps10SetAlgebra", "strongMemory"]
+- ["Ps10SetAlgebra", "weakMemory"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "forEach"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "forEach"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "allObjects"]
+- !private ["Ps9_Hashable", "async"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "objectEnumerator"]
+- !private ["Ps9_Hashable", "removeObject"]
+- !private ["Ps9_Hashable", "setObject"]
+- !private ["Ps9_Hashable", "with"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "C14SwiftUtilities3Box"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- "P14SwiftUtilities7Locking"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo12NSEnumerator"
+- "PSo17NSFastEnumeration"
+- "PSo9NSLocking"
+- "CSo10NSMapTable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo15NSRecursiveLock"
+- !private "CSo9OS_object"
+- "C14SwiftUtilities26ObservableOptionalProperty"
+- "C14SwiftUtilities18ObservableProperty"
+- "P14SwiftUtilities14ObservableType"
+- "Ps9OptionSet"
+- "Sq"
+- "VCSo18NSPointerFunctions7Options"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Source/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Build/Intermediates/SwiftUtilities.build/Debug-iphoneos/SwiftUtilities_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "9bd9f4321140f98e91e450f517f64c99"

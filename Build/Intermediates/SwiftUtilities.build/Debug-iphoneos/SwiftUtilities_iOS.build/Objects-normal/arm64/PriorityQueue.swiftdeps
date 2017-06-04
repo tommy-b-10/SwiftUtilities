@@ -1,0 +1,122 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PriorityQueue"
+- "PriorityQueueGenerator"
+provides-nominal:
+- "V14SwiftUtilities13PriorityQueue"
+- "V14SwiftUtilities22PriorityQueueGenerator"
+provides-member:
+- ["V14SwiftUtilities13PriorityQueue", ""]
+- ["V14SwiftUtilities22PriorityQueueGenerator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Sequence"
+- "PriorityQueue"
+- "Bool"
+- "PriorityQueueGenerator"
+- "Comparable"
+- "BinaryHeap"
+- "IteratorProtocol"
+- "AssignmentPrecedence"
+- !private "<"
+- "Int"
+depends-member:
+- ["Vs11AnyIterator", "Element"]
+- ["Vs11AnySequence", "Iterator"]
+- ["Vs11AnySequence", "SubSequence"]
+- !private ["V14SwiftUtilities10BinaryHeap", "count"]
+- ["V14SwiftUtilities10BinaryHeap", "deinit"]
+- !private ["V14SwiftUtilities10BinaryHeap", "init"]
+- !private ["V14SwiftUtilities10BinaryHeap", "isEmpty"]
+- !private ["V14SwiftUtilities10BinaryHeap", "pop"]
+- !private ["V14SwiftUtilities10BinaryHeap", "push"]
+- ["Sb", "deinit"]
+- ["Si", "deinit"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps16IteratorProtocol", "init"]
+- ["Ps16IteratorProtocol", "next"]
+- !private ["Ps16IteratorProtocol", "queue"]
+- ["Ps16IteratorProtocol", ""]
+- ["Sq", "deinit"]
+- ["V14SwiftUtilities13PriorityQueue", "BinaryHeap"]
+- ["V14SwiftUtilities13PriorityQueue", "Bool"]
+- ["V14SwiftUtilities13PriorityQueue", "Element"]
+- ["V14SwiftUtilities13PriorityQueue", "Int"]
+- ["V14SwiftUtilities13PriorityQueue", "Iterator"]
+- ["V14SwiftUtilities13PriorityQueue", "Priority"]
+- ["V14SwiftUtilities13PriorityQueue", "PriorityQueueGenerator"]
+- ["V14SwiftUtilities13PriorityQueue", "SubSequence"]
+- ["V14SwiftUtilities13PriorityQueue", "_copyContents"]
+- ["V14SwiftUtilities13PriorityQueue", "_copyToContiguousArray"]
+- ["V14SwiftUtilities13PriorityQueue", "_customContainsEquatableElement"]
+- ["V14SwiftUtilities13PriorityQueue", "_preprocessingPass"]
+- ["V14SwiftUtilities13PriorityQueue", "binaryHeap"]
+- ["V14SwiftUtilities13PriorityQueue", "count"]
+- ["V14SwiftUtilities13PriorityQueue", "deinit"]
+- ["V14SwiftUtilities13PriorityQueue", "dropFirst"]
+- ["V14SwiftUtilities13PriorityQueue", "dropLast"]
+- ["V14SwiftUtilities13PriorityQueue", "filter"]
+- ["V14SwiftUtilities13PriorityQueue", "forEach"]
+- ["V14SwiftUtilities13PriorityQueue", "get"]
+- ["V14SwiftUtilities13PriorityQueue", "init"]
+- ["V14SwiftUtilities13PriorityQueue", "isEmpty"]
+- ["V14SwiftUtilities13PriorityQueue", "makeIterator"]
+- ["V14SwiftUtilities13PriorityQueue", "map"]
+- ["V14SwiftUtilities13PriorityQueue", "prefix"]
+- ["V14SwiftUtilities13PriorityQueue", "put"]
+- ["V14SwiftUtilities13PriorityQueue", "split"]
+- ["V14SwiftUtilities13PriorityQueue", "suffix"]
+- ["V14SwiftUtilities13PriorityQueue", "underestimatedCount"]
+- ["V14SwiftUtilities22PriorityQueueGenerator", "Element"]
+- ["V14SwiftUtilities22PriorityQueueGenerator", "Priority"]
+- ["V14SwiftUtilities22PriorityQueueGenerator", "PriorityQueue"]
+- ["V14SwiftUtilities22PriorityQueueGenerator", "Value"]
+- ["V14SwiftUtilities22PriorityQueueGenerator", "deinit"]
+- ["V14SwiftUtilities22PriorityQueueGenerator", "init"]
+- ["V14SwiftUtilities22PriorityQueueGenerator", "next"]
+- !private ["V14SwiftUtilities22PriorityQueueGenerator", "queue"]
+- !private ["Ps8Sequence", "BinaryHeap"]
+- ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "SubSequence"]
+- ["Ps8Sequence", "_copyContents"]
+- ["Ps8Sequence", "_copyToContiguousArray"]
+- ["Ps8Sequence", "_customContainsEquatableElement"]
+- ["Ps8Sequence", "_preprocessingPass"]
+- !private ["Ps8Sequence", "binaryHeap"]
+- ["Ps8Sequence", "dropFirst"]
+- ["Ps8Sequence", "dropLast"]
+- ["Ps8Sequence", "filter"]
+- ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "get"]
+- ["Ps8Sequence", "makeIterator"]
+- ["Ps8Sequence", "map"]
+- ["Ps8Sequence", "prefix"]
+- ["Ps8Sequence", "split"]
+- ["Ps8Sequence", "suffix"]
+- ["Ps8Sequence", "underestimatedCount"]
+- ["Ps8Sequence", ""]
+depends-nominal:
+- "Vs11AnyIterator"
+- "Vs11AnySequence"
+- "V14SwiftUtilities10BinaryHeap"
+- "Sb"
+- "Si"
+- "Ps16IteratorProtocol"
+- "Sq"
+- "V14SwiftUtilities13PriorityQueue"
+- "V14SwiftUtilities22PriorityQueueGenerator"
+- "Ps8Sequence"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Source/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Build/Intermediates/SwiftUtilities.build/Debug-iphoneos/SwiftUtilities_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "30b957ce4b9640220bd212414aa7ac45"

@@ -1,0 +1,128 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SR", ""]
+- ["SR", "elementSize"]
+- ["SR", "length"]
+- ["SR", "byteCount"]
+provides-dynamic-lookup:
+depends-top-level:
+- "UnsafeBufferPointer"
+- !private "Swift"
+- "Int"
+- !private "*"
+- !private "MemoryLayout"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+depends-member:
+- !private ["P14SwiftUtilities13BaseEncodable", "IndexDistance"]
+- !private ["P14SwiftUtilities13BaseEncodable", "MemoryLayout"]
+- !private ["P14SwiftUtilities13BaseEncodable", "Swift"]
+- !private ["P14SwiftUtilities13BaseEncodable", "UnsafeBufferPointer"]
+- !private ["P14SwiftUtilities13BaseEncodable", "byteCount"]
+- !private ["P14SwiftUtilities13BaseEncodable", "count"]
+- !private ["P14SwiftUtilities13BaseEncodable", "elementSize"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "MemoryLayout"]
+- !private ["Ps23BidirectionalCollection", "Swift"]
+- !private ["Ps23BidirectionalCollection", "UnsafeBufferPointer"]
+- !private ["Ps23BidirectionalCollection", "byteCount"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "elementSize"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "MemoryLayout"]
+- !private ["Ps22BidirectionalIndexable", "Swift"]
+- !private ["Ps22BidirectionalIndexable", "UnsafeBufferPointer"]
+- !private ["Ps22BidirectionalIndexable", "byteCount"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps22BidirectionalIndexable", "elementSize"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "MemoryLayout"]
+- !private ["Ps10Collection", "Swift"]
+- !private ["Ps10Collection", "UnsafeBufferPointer"]
+- !private ["Ps10Collection", "byteCount"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "elementSize"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "MemoryLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "Swift"]
+- !private ["Ps28CustomDebugStringConvertible", "UnsafeBufferPointer"]
+- !private ["Ps28CustomDebugStringConvertible", "byteCount"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "elementSize"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "MemoryLayout"]
+- !private ["Ps9Indexable", "Swift"]
+- !private ["Ps9Indexable", "UnsafeBufferPointer"]
+- !private ["Ps9Indexable", "byteCount"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "elementSize"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "MemoryLayout"]
+- !private ["Ps13IndexableBase", "Swift"]
+- !private ["Ps13IndexableBase", "UnsafeBufferPointer"]
+- !private ["Ps13IndexableBase", "byteCount"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "elementSize"]
+- ["Si", "deinit"]
+- !private ["Os12MemoryLayout", "size"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "MemoryLayout"]
+- !private ["Ps22RandomAccessCollection", "Swift"]
+- !private ["Ps22RandomAccessCollection", "UnsafeBufferPointer"]
+- !private ["Ps22RandomAccessCollection", "byteCount"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "elementSize"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "MemoryLayout"]
+- !private ["Ps21RandomAccessIndexable", "Swift"]
+- !private ["Ps21RandomAccessIndexable", "UnsafeBufferPointer"]
+- !private ["Ps21RandomAccessIndexable", "byteCount"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps21RandomAccessIndexable", "elementSize"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "MemoryLayout"]
+- !private ["Ps8Sequence", "Swift"]
+- !private ["Ps8Sequence", "UnsafeBufferPointer"]
+- !private ["Ps8Sequence", "byteCount"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "elementSize"]
+- !private ["SR", "Element"]
+- !private ["SR", "IndexDistance"]
+- ["SR", "Int"]
+- !private ["SR", "MemoryLayout"]
+- !private ["SR", "Swift"]
+- !private ["SR", "UnsafeBufferPointer"]
+- ["SR", "byteCount"]
+- !private ["SR", "count"]
+- ["SR", "deinit"]
+- ["SR", "elementSize"]
+- ["SR", "length"]
+depends-nominal:
+- !private "P14SwiftUtilities13BaseEncodable"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- !private "Os12MemoryLayout"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps8Sequence"
+- "SR"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Source/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftUtilities/Build/Intermediates/SwiftUtilities.build/Debug-iphoneos/SwiftUtilities_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "bb8dfc6b962d163f5a7dc61c3fac2ed6"
